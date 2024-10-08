@@ -178,7 +178,7 @@ footer {
 }
 
 /* Estilos responsivos */
-@media (max-width: 768px) {
+@media (width:300px) {
     .menu {
         display: none;
         flex-direction: column;
