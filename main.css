@@ -171,7 +171,8 @@ footer {
     background: #333;
     color: #fff;
     padding: 20px 0;
-    width: 300px;
+    width: 100%;
+    margin: auto;
     border-radius: 10px 10px;
     text-align: center;
 }
