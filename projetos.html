@@ -14,8 +14,10 @@ h2{font-size: 20px;font-style: inherit;font-family: Arial, Helvetica, sans-serif
 p{font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: initial;text-shadow: 6px;color: white;}
 .color{width: 300px;margin: auto;border-radius: 10px 10px;padding: 10px;background-color: beige;border: 3px solid red;box-shadow: 8px 8px 8px white;align-items: center;}
 .color1{width: 300px;padding: 10px;border-radius: 10px 10px;align-items: center;margin: auto;background-color: bisque;border: 3px solid white;box-shadow: 6px 6px 6px bisque;}
-summary{width: 200px;border-radius: 10px 10px;margin: auto;text-shadow: 6px;}
+summary{width: 200px;border-radius: 10px 10px;margin: auto;text-shadow: 6px;padding: 5px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 20px;font-style: oblique;}
 section{width: 300px;border-radius: 10px 10px;margin: auto;background-color: bisque;text-align: center;}
+.summary:hover
+{transform: scale(1.2);transition: transform 0.6s}
 </style>
 <body>
     <header><h1><big>Meus Projetos</big></h1></header>
@@ -23,6 +25,9 @@ section{width: 300px;border-radius: 10px 10px;margin: auto;background-color: bis
     <br>
     <main>
     <h2><big>Vídeos</big></h2>
+    <br>
+    <div class="summary">
+    <div id="text"><details><summary style="background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);border: 3px solid white;box-shadow: 6px 6px 6px brown;">Vídeos</summary>
     <br>
     <section style="width: 350px;border-radius: 10px 10px;padding: 10px;">
     <p><video src="Virtue.mp4" controls width="300px" height="180px" style="border: 6px solid blue;border-radius: 10px 10px;box-shadow: 8px 8px 8px white;"></video></p>
@@ -46,8 +51,12 @@ section{width: 300px;border-radius: 10px 10px;margin: auto;background-color: bis
     <p><video src="Video 6.mp4" controls width="300px" height="180px" style="border: 6px solid blue;border-radius: 10px 10px;box-shadow: 8px 8px 8px white;"></video></p>
     <p><a href="Video 6.mp4" download="mp4" style="background-color: blue;color: white;border-radius: 10px 10px;text-shadow: 6px;border: 3px solid white;box-shadow: 8px 8px 8px red;">Baixe aqui</a></p>
     </section>
+    </details></div></div>
     <br>
-    <div id="text"><details><summary style="background-color: brown;color: white;border: 3px solid white;box-shadow: 8px 8px 8px brown;">Imagens</summary>
+    <h2><big>Imagens</big></h2>
+    <br>
+    <div class="summary">
+    <div id="text"><details><summary style="background-color: rgb(255, 255, 255);color: rgb(113, 59, 59);border: 3px solid white;box-shadow: 8px 8px 8px brown;">Imagens</summary>
     <br>
     <section style="width: 350px;padding: 10px;border-radius: 10px 10px;background-color: white;">
     <div class="color1">
@@ -63,12 +72,13 @@ section{width: 300px;border-radius: 10px 10px;margin: auto;background-color: bis
     <p><img src="foto3.jpeg" alt="icon" width="200px" height="200px" style="border-radius: 10px 10px;border: 5px sold white;box-shadow: 8px 8px 8px red;"></p>
     <p><a href="foto3.jpeg" download="jpeg" style="background-color: brown;color: white;border: 6px solid white;border-radius: 10px 10px;text-shadow: 6px;box-shadow: 8px 8px 8px brown;">Baixe aqui</a></p> 
     </div>
-    </details></div>
+    </details></div></div>
     </section>
     <br>
     <h2><big>Aúdios</big></h2>
     <br>
-    <div id="text"><details><summary style="background-color: black;color: yellow;border: 6px solid white;box-shadow: 8px 8px 8px yellow;">Aúdios</summary>
+    <div class="summary">
+    <div id="text"><details><summary style="background-color: rgb(255, 255, 255);color: rgb(79, 79, 64);border: 6px solid white;box-shadow: 8px 8px 8px rgb(251, 255, 0);">Aúdios</summary>
     <br>
     <section style="background-color: blueviolet;border-radius: 10px 10px;width: 350px;margin: auto;text-align: center;padding: 10px;border: 3px solid white;box-shadow: 8px 8px 8px red;">
     <p><audio src="Audio 1.mp3" controls></audio></p>
@@ -85,13 +95,14 @@ section{width: 300px;border-radius: 10px 10px;margin: auto;background-color: bis
     <br>
     <p><audio src="Audio 11.mp3" controls></audio></p>
     <p><a href="Audio 11.mp3" download="mp3" style="background-color: black;color: white;border: 6px solid white;border-radius: 10px 10px;text-shadow: 6px;box-shadow: 8px 8px 8px white;">Baixe aqui</a></p>
-    </details></div>
+    </details></div></div>
     </section>
     </main>
     <br>
+    <br>
     <nav>
-        <footer style="background-color: darkcyan;width: 300px;margin: auto;align-items: center;border-radius: 10px 10px;">
-        <p>Retorne para minha <a href="index.html" target="_blank" rel="external" style="background-color: darkblue;color: white;border: 3px solid white;border-radius: 10px 10px;text-shadow: 6px;box-shadow: 1px 1px 1px red;text-decoration: none;">1ªPágina</a></p>
+        <footer style="background-color: white;width: 300px;margin: auto;align-items: center;padding: 10px;border-radius: 10px 10px;">
+        <p style="color: black;">Retorne para minha <a href="index.html" target="_blank" rel="external" style="background-color: darkblue;color: white;border: 3px solid white;border-radius: 10px 10px;text-shadow: 6px;box-shadow: 1px 1px 1px red;text-decoration: none;">1ªPágina</a></p>
         </footer>
     </nav>
     <br>
