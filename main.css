@@ -1,4 +1,6 @@
-
+thead{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: italic;font-size: 20px;text-align: left;text-shadow: 6px;}
+tbody{font-size: 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-style: oblique;text-shadow: 6px;text-align: left;}
+tfoot{font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: inherit;text-align: left;text-shadow: 6px;}
 
 /* Estilos do corpo */
 body {
@@ -101,7 +103,7 @@ border-radius: 10px 10px;
 /* Seções */
 section {
     width: 100%;
-    padding: 10px;
+    padding: 30px;
     margin: 20px 0;
     text-align: center;
     background-color: #ffffff;
