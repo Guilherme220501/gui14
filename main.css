@@ -113,6 +113,10 @@ a{font-size: 15px;}
 .home-section {
     background-color: #6f6a84;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
     color: #fff;
     border-radius: 10px 10px;
 }
